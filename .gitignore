@@ -1,0 +1,33 @@
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.envrc
+.env/           # in case you use a venv called .env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Environment & secret keys
+.env            # <-- critical: your database password and keys
+*.env           # if you ever use multiple .env files
+
+# Logs
+*.log
+
+# Alembic migrations cache
+alembic/versions/*.pyc
