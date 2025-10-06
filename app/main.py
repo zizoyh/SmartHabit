@@ -1,4 +1,5 @@
 # import fastapi
+#this file is the main entry point for the FastAPI application
 from fastapi import FastAPI
 from app.config import get_settings
 

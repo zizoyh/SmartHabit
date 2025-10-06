@@ -1,5 +1,6 @@
 # Installed pydantic package
 # app/config.py
+# this file contains configuration settings for the application
 from pydantic_settings import BaseSettings
 from functools import lru_cache
 #base settings is a class from pydantic package that allows us to define settings for our application
